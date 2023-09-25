@@ -1,0 +1,211 @@
+.head-container {
+    border-bottom: solid #FBF9F7;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.localinsert {
+    >a{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: color .2s ease-out;
+    }
+    >a:hover {
+        color:orange;
+    }
+    >img{
+        height: 3rem;
+        width: 3rem;
+    }
+    display: flex;
+    flex-direction: row;
+    flex-basis: 150px;
+}
+
+.logo{
+    display: flex;
+    width: 13.5rem;
+    justify-content: flex-end;
+}
+.logoimage {
+    height: 9rem;
+    width: 9rem;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+    height: 149.2px;
+    background-color: #FBF9F7;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cart {
+    >a{
+        .cartimage-hover {
+            opacity: 1;
+            transition: color .2s ease-out;
+            &.hover {
+                opacity: 0;
+            }
+        }
+        >img{
+            height: 3rem;
+            width: 3rem;
+            top: 0;
+            left: 0;
+            position: relative;
+        }
+    }
+}
+
+form  {
+    border-radius: 5px;
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+    border: solid #FBF9F7;
+   >input{
+    border: none;
+    font-size: 14px;
+   } 
+   >button{
+    border: none;
+    background-color: white;
+    >img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+   }
+}
+
+body {
+    margin: 0px;
+}
+
+.svgclick:hover {
+    fill: #4e2096;
+    stroke: #4e2096;
+}
+
+.orangy {
+    background-color: #FFBC78;
+}
+
+.orangyTop {
+    width: 100%;
+}
+
+.orangyBottom {
+    width: 100%;
+    margin-bottom: 7%;
+}
+
+.pricingimg {
+    width: 5rem;
+    height: 5rem;
+}
+
+.btimg {
+    width: 7.2rem;
+    height: 2.5rem;
+}
+.col {
+    width: 25%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.card-header {
+    background-color: white;
+    border-bottom: none;
+    border-top-right-radius: 16px!important;
+    border-top-left-radius: 16px!important;
+}
+
+.btnstore {
+    background-color: white;
+    border:none;
+    padding-right: 0!important;
+    padding-left: 0!important;
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    >img {
+        width: 7.2rem;
+        height: 2.5rem;
+    }
+}
+
+.card-3 {
+    background-color: #1f3366!important;
+    border-color: #1f3366!important;
+}
+
+.border-primary{
+    border-color: #1f3366!important;
+}
+.btn-primary {
+    background-color: #1f3366;
+    border-color: #1f3366;
+    border-radius: 14px;
+}
+
+.btn-outline-primary {
+    color: #1f3366;
+    border-color: #1f3366;
+    border-radius: 14px;
+}
+
+.card {
+    border-radius: 16px!important;
+
+}
+
+.footer {
+    margin-top: 3%;
+    padding: 3%;
+    border-top: solid #FBF9F7;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.appimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    .imgAndroid {
+        margin-bottom: 3%;
+        width: 7.5rem;
+        height: 2.5rem;
+    }
+}
+
+.icons {
+    width: 11rem;
+    .icons_ {
+        margin-right: 3%;
+        width:28px;
+        align-self: flex-end;
+    }
+}
+
+a {
+    font-weight: normal;
+}
+
+.text-center{
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.list-unstyled {
+    font-weight: normal;
+}
